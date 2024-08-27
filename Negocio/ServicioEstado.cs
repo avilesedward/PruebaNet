@@ -12,8 +12,8 @@ namespace Negocio
         {
             configuration = _configuration;
             cache = _cache;
-            estados.Add(1, "Active");
-            estados.Add(0, "Inactive");
+            if (!estados.ContainsKey(0)) estados.Add(0, "Inactive");
+            if (!estados.ContainsKey(1)) estados.Add(1, "Active");
         }
 
         public async Task<IDictionary<int, string>> GetEstados()
