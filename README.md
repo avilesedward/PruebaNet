@@ -1,4 +1,4 @@
-# API de Registro de Productos
+# PruebaNet API de Registro de Productos
 
 ## Descripción
 Este proyecto es una API RESTful desarrollada en .NET 8 mediante un proyecto WebApi para gestionar un sistema de registro de productos. La API permite realizar operaciones CRUD (Crear, Leer, Actualizar) sobre productos y está diseñada siguiendo principios SOLID, patrones de diseño y buenas prácticas de Clean Code. Además, se ha implementado TDD (Proyecto test) para asegurar la calidad del código.
