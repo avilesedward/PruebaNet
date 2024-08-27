@@ -1,0 +1,12 @@
+Request: GET /api/Producto/Health respuesta en 382 ms
+Request: GET /api/Producto respuesta en 1602 ms
+Request: GET /api/Producto respuesta en 2888 ms
+Request: GET /api/Producto/1 respuesta en 2493 ms
+Request: GET /api/Producto respuesta en 166 ms
+Request: GET /api/Producto respuesta en 37806 ms
+Request: GET /api/Producto respuesta en 22879 ms
+Request: GET /api/Producto respuesta en 139 ms
+Request: GET /api/Producto/1 respuesta en 2154 ms
+Request: GET /api/Producto/1 respuesta en 122 ms
+Request: GET /api/Producto/1 respuesta en 3940 ms
+Request: GET /api/Producto/1 respuesta en 9385 ms
