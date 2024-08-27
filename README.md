@@ -34,7 +34,23 @@ Este proyecto es una API RESTful desarrollada en .NET 8 mediante un proyecto Web
 4. **Persistencia de Datos**:
    - Guarda la información del producto en una base de datos Ms Sql Sever.
    - La persistencia se realizó usando el paquete EntityFrameworkCore.SqlServer.
-
+   - Script de la tabla usada
+```sql
+CREATE TABLE [dbo].[Producto](
+	[ProductId] [bigint] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](100) NULL,
+	[Stock] [int] NULL,
+	[Description] [varchar](500) NULL,
+	[Price] [decimal](18, 2) NULL,
+	[Status] [int] NULL,
+	[FechaCreacion] [datetime] NULL,
+	[FechaModificacion] [datetime] NULL,
+ CONSTRAINT [PK_Producto] PRIMARY KEY CLUSTERED 
+ (
+	[ProductId] ASC
+ )
+) 
+```
 5. **Descuento y Precio Final**:
    - Calcula el descuento y el precio final del producto basado en un servicio externo que se puede configurar en el archivo appsettings.json. en la llave urlDescuentos.
 
